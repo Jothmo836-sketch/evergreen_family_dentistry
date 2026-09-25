@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { motion, useScroll, useTransform, useSpring } from 'motion/react';
 import { Instagram, MapPin } from 'lucide-react';
+import clinicInterior from '../assets/images/dental_hero_clinic_1790293806488.jpg';
 import { DENTAL_PRACTICE_INFO } from '../data/dentalData.ts';
 
 interface HeroProps {
@@ -110,7 +111,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
           >
             {/* High-tech modern dental clinic interior with accelerated parallax */}
             <motion.img
-              src="/src/assets/images/dental_hero_clinic_1790293806488.jpg"
+              src={clinicInterior}
               alt="State-of-the-art Evergreen Family Dentistry operatory in Yreka"
               style={{
                 scale: clinicScale,

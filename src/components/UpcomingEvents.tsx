@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
 import { Sparkles, Calendar, Clock, ArrowRight, ShieldCheck, Heart } from 'lucide-react';
+import clinicInterior from '../assets/images/dental_hero_clinic_1790293806488.jpg';
 import { UPCOMING_CLINICAL_CASES, DentalCaseOrEvent } from '../data/dentalData.ts';
 
 interface UpcomingEventsProps {
@@ -215,7 +216,7 @@ export const UpcomingEvents: React.FC<UpcomingEventsProps> = ({ onSelectEvent })
             className="relative w-full h-[500px] sm:h-[580px] rounded-3xl overflow-hidden shadow-2xl bg-slate-950 cursor-pointer group"
           >
             <motion.img
-              src="/src/assets/images/dental_hero_clinic_1790293806488.jpg"
+              src={clinicInterior}
               alt="Evergreen Family Dentistry modern operatory"
               className="w-full h-full object-cover object-center filter brightness-[0.85] group-hover:scale-105 transition-transform duration-1000"
             />

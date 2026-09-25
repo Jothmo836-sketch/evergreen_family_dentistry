@@ -1,3 +1,5 @@
+import clinicInterior from '../assets/images/dental_hero_clinic_1790293806488.jpg';
+
 export interface DentalServiceCategory {
   id: string;
   title: string;
@@ -159,7 +161,7 @@ export const UPCOMING_CLINICAL_CASES: DentalCaseOrEvent[] = [
     title: 'Same-Day Urgent Tooth Relief',
     date: 'Priority On-Call',
     category: 'Emergency Care',
-    image: '/src/assets/images/dental_hero_clinic_1790293806488.jpg',
+    image: clinicInterior,
     doctor: 'Emergency Dental Team',
     duration: 'Immediate Triage',
     tagline: 'Fast relief when unexpected dental pain or tooth accidents occur.',

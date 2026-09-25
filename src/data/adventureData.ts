@@ -1,3 +1,18 @@
+import paragliderBeach from '../assets/images/paraglider_beach_coastal_1790291367879.jpg';
+import hikerMountains from '../assets/images/hero_hiker_mountains_1790291290586.jpg';
+import whitewaterCrew from '../assets/images/whitewater_rafting_crew_1790291399478.jpg';
+import rockClimber from '../assets/images/rock_climber_granite_1790291456517.jpg';
+import cyclistRoad from '../assets/images/hero_cyclist_road_1790291302424.jpg';
+import kayakHorizontal from '../assets/images/kayak_horizontal_1790292092310.jpg';
+import stadiumSoccer from '../assets/images/soccer_ball_stadium_1790291420023.jpg';
+import motocrossDust from '../assets/images/motocross_rider_dust_1790291336800.jpg';
+import tentHorizontal from '../assets/images/tent_horizontal_1790292145441.jpg';
+import tennisBall from '../assets/images/hero_tennis_ball_1790292062980.jpg';
+import skaterHorizontal from '../assets/images/skater_horizontal_1790292121461.jpg';
+import quadTrail from '../assets/images/atv_quad_trail_1790291444301.jpg';
+import tentRidge from '../assets/images/yellow_tent_mountain_ridge_1790291378740.jpg';
+import climbingGear from '../assets/images/climbing_gear_carabiner_1790291431331.jpg';
+
 export interface ActivityCategory {
   id: string;
   title: string;
@@ -47,7 +62,7 @@ export const ACTIVITY_CATEGORIES: ActivityCategory[] = [
     title: 'Air & altitude experiences',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sem dolor, imperdiet ut placerat sed, ultrices vitae Maecenas.',
     icon: 'wind',
-    image: '/src/assets/images/paraglider_beach_coastal_1790291367879.jpg',
+    image: paragliderBeach,
     featuredTitle: 'Waves, winds, and wandering souls',
     featuredSubtitle: 'Adventure',
     location: 'Interlaken & Costa Brava',
@@ -58,7 +73,7 @@ export const ACTIVITY_CATEGORIES: ActivityCategory[] = [
     title: 'Guided outdoor adventures',
     description: 'Traverse untouched backcountry trails with alpine experts who know every crest, valley, and summit ridge.',
     icon: 'compass',
-    image: '/src/assets/images/hero_hiker_mountains_1790291290586.jpg',
+    image: hikerMountains,
     featuredTitle: 'Alpine trails & untamed mountain ridges',
     featuredSubtitle: 'High Altitude',
     location: 'Dolomites & Rocky Mountains',
@@ -69,7 +84,7 @@ export const ACTIVITY_CATEGORIES: ActivityCategory[] = [
     title: 'Water sports & activities',
     description: 'Challenge untamed river rapids, paddle mirror lakes, and surf coastal swells alongside world-class river guides.',
     icon: 'waves',
-    image: '/src/assets/images/whitewater_rafting_crew_1790291399478.jpg',
+    image: whitewaterCrew,
     featuredTitle: 'Roaring rapids & crystal white waters',
     featuredSubtitle: 'Aquatic Expedition',
     location: 'Zambezi & Colorado Rivers',
@@ -80,7 +95,7 @@ export const ACTIVITY_CATEGORIES: ActivityCategory[] = [
     title: 'Rock climbing expeditions',
     description: 'Scale sheer granite monoliths, master multi-pitch ascents, and conquer breathtaking cliffside views.',
     icon: 'mountain',
-    image: '/src/assets/images/rock_climber_granite_1790291456517.jpg',
+    image: rockClimber,
     featuredTitle: 'Sheer granite monoliths & vertical limits',
     featuredSubtitle: 'Mountaineering',
     location: 'Yosemite & Chamonix Needle',
@@ -94,7 +109,7 @@ export const UPCOMING_EVENTS: AdventureEvent[] = [
     title: 'Whitewater Rapid Sprint',
     date: 'January 05, 2026',
     category: 'Water Sports',
-    image: '/src/assets/images/whitewater_rafting_crew_1790291399478.jpg',
+    image: whitewaterCrew,
     location: 'Colorado River Canyon',
     duration: '4 Days',
     price: '$850',
@@ -105,7 +120,7 @@ export const UPCOMING_EVENTS: AdventureEvent[] = [
     title: 'High Alpine Road Climb',
     date: 'January 10, 2026',
     category: 'Endurance',
-    image: '/src/assets/images/hero_cyclist_road_1790291302424.jpg',
+    image: cyclistRoad,
     location: 'Passo dello Stelvio, Italy',
     duration: '3 Days',
     price: '$620',
@@ -116,7 +131,7 @@ export const UPCOMING_EVENTS: AdventureEvent[] = [
     title: 'Wave chasers',
     date: 'January 12, 2026',
     category: 'Water Sports',
-    image: '/src/assets/images/kayak_horizontal_1790292092310.jpg',
+    image: kayakHorizontal,
     location: 'Emerald River Fjord',
     duration: '2 Days',
     price: '$450',
@@ -127,7 +142,7 @@ export const UPCOMING_EVENTS: AdventureEvent[] = [
     title: 'Arena Championship Series',
     date: 'January 28, 2026',
     category: 'Field Sports',
-    image: '/src/assets/images/soccer_ball_stadium_1790291420023.jpg',
+    image: stadiumSoccer,
     location: 'Alpine Arena Sports Complex',
     duration: '1 Day',
     price: '$120',
@@ -138,7 +153,7 @@ export const UPCOMING_EVENTS: AdventureEvent[] = [
     title: 'Dune & Dust Motocross Trial',
     date: 'February 02, 2026',
     category: 'Motorsport',
-    image: '/src/assets/images/motocross_rider_dust_1790291336800.jpg',
+    image: motocrossDust,
     location: 'Mojave Ridge Circuit',
     duration: '3 Days',
     price: '$980',
@@ -149,7 +164,7 @@ export const UPCOMING_EVENTS: AdventureEvent[] = [
     title: 'Mountain summit peak',
     date: 'February 08, 2026',
     category: 'High Altitude',
-    image: '/src/assets/images/tent_horizontal_1790292145441.jpg',
+    image: tentHorizontal,
     location: 'Matterhorn Base Plateau',
     duration: '5 Days',
     price: '$1,400',
@@ -160,7 +175,7 @@ export const UPCOMING_EVENTS: AdventureEvent[] = [
     title: 'Seaside Court Masters',
     date: 'February 20, 2026',
     category: 'Court Sports',
-    image: '/src/assets/images/hero_tennis_ball_1790292062980.jpg',
+    image: tennisBall,
     location: 'Riviera Clay Club',
     duration: '2 Days',
     price: '$340',
@@ -171,7 +186,7 @@ export const UPCOMING_EVENTS: AdventureEvent[] = [
     title: 'Skate enthusiast',
     date: 'March 07, 2026',
     category: 'Urban Action',
-    image: '/src/assets/images/skater_horizontal_1790292121461.jpg',
+    image: skaterHorizontal,
     location: 'Pacific Concrete Plaza',
     duration: '1 Day',
     price: '$95',
@@ -182,7 +197,7 @@ export const UPCOMING_EVENTS: AdventureEvent[] = [
     title: 'Canyon Trail Quad Raid',
     date: 'March 18, 2026',
     category: 'Off-Road',
-    image: '/src/assets/images/atv_quad_trail_1790291444301.jpg',
+    image: quadTrail,
     location: 'Red Rock Wilderness',
     duration: '2 Days',
     price: '$550',
@@ -244,7 +259,7 @@ export const INITIAL_CART_ITEMS: CartItem[] = [
     name: 'Xpedition Summit Geo-Dome Tent',
     category: 'High Altitude Gear',
     price: 480,
-    image: '/src/assets/images/yellow_tent_mountain_ridge_1790291378740.jpg',
+    image: tentRidge,
     quantity: 1,
   },
   {
@@ -252,7 +267,7 @@ export const INITIAL_CART_ITEMS: CartItem[] = [
     name: 'Pro Locking Carabiner & Sling Set',
     category: 'Mountaineering',
     price: 135,
-    image: '/src/assets/images/climbing_gear_carabiner_1790291431331.jpg',
+    image: climbingGear,
     quantity: 2,
   },
 ];
